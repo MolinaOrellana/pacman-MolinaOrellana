@@ -24,6 +24,11 @@ public class PacMan extends Applet implements Runnable
   boolean       scared=false;
   boolean       dying=false;
 
+  
+  /*
+   * E modificat les variables 
+   */
+  final int adria=14;
   final int	screendelay=120;
   final int     blocksize=24;
   final int     nrofblocks=15;
@@ -34,6 +39,10 @@ public class PacMan extends Applet implements Runnable
   final int     pacmananimcount=4;
   final int     maxghosts=12;
   final int	pacmanspeed=6;
+  
+  /*
+   * E modificat els valors 
+   */
 
   int		animcount=animdelay;
   int           pacanimcount=pacanimdelay;
